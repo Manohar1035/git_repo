@@ -17,4 +17,10 @@
 16. git config --global user.email <usermailid>
 17. git remote -v -> To check which remote is present
 18. git remote add origin <URL of git hub branch>   
+19. git push --set-upstream origin main -> To push the current branch and set the remote as upstream
+20. git push -> to push the code from local to remote
+# git push/clone is of two ways
+# 1. http: Its a password authentication, we need to push/clone by providing PAT(personal access token)
+# 2. ssh: Password less access, we need to generate the key using command "ssh-keygen" and copy the public key to git hub at location security -> SSH & GPG keys -> add new ssh key and change the remote add origin URL
+21. git remote set-url origin <ssh url>
 
