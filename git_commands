@@ -25,5 +25,10 @@
 21. git remote set-url origin <ssh url>
 22. git branch -> to know the list of branches
 23. git branch <branch_name> -> to create new branch
-24. git checkout <branch_name> -> To switch to other branch from one branch to another branch. 
+24. git checkout <branch_name> -> To switch to other branch from one branch to another branch.
+25. git checkout -b <branch_name> -> It will create a branch and checkout
+# After new branch is created and switched to new branch, all the files present in main branch will be seen in feature branch also, now we can edit existing files ot new files in the feature branch and then checkout to main branch and from main branch we can merge feature branch and push the code to remote.
+26. git merge feature -> From Main branch, we need to merge the feature branch to main branch
+# We should not directly merge the code from feature branch to master/main branch in local. We need to push the code by raising PR to main branch in remote. Main brach is protected for not directly merging the code with out PR and approvals. reposetting -> branch -> create protection rule -> Branch name -> require a PR before merging 
+27. 
 
