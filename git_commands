@@ -1,9 +1,17 @@
 # 1st we need to create working folder and initilize git to work on git
-1. git init
-2. Create a file with some data and save the file.
-3. git status -> This will show show files are there for tracking
-4. git add . ->This will move alll the files from working area to staging area, which means files will be tracked by git
-5. git add file_name -> This will move perticular file for tracking
-6. git rm --cached <file_name> -> This will unstate the file, means will love back from stating area to working area.
-7. git restore <file_name>" -> This is to discard changes in working directory
-8. git commit -m "commit message"
+1.  git init
+2.  Create a file with some data and save the file.
+3.  git status -> This will show show files are there for tracking
+4.  git add . ->This will move alll the files from working area to staging area, which means files will be tracked by git
+5.  git add file_name -> This will move perticular file for tracking
+6.  git rm --cached <file_name> -> This will unstate the file, means will love back from stating area to working area.
+7.  git restore <file_name>" -> This is to discard changes in working directory
+8.  git commit -m "commit message"
+9.  git show -> Will display all the commit's with entire details made along with what codes changes have been done
+10. git show <commit_ID> -> Will display the entire details about perticular commit ID along with codes changes done
+11. git log -> This will display the all commit ID's and commit message and author
+12. git log --oneline -> This will display the online of all commits
+13. git log <commit_ID> -> log message for perticular commit
+14. git log --oneline <commit_ID> -> One liner commit message for perticular commit.
+15.  
+
