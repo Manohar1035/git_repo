@@ -1,34 +1,33 @@
 # 1st we need to create working folder and initilize git to work on git
 1.  git init
-2.  Create a file with some data and save the file.
-3.  git status -> This will show show files are there for tracking
-4.  git add . ->This will move alll the files from working area to staging area, which means files will be tracked by git
-5.  git add file_name -> This will move perticular file for tracking
-6.  git rm --cached <file_name> -> This will unstate the file, means will love back from stating area to working area.
-7.  git restore <file_name>" -> This is to discard changes in working directory
-8.  git commit -m "commit message"
-9.  git show -> Will display all the commit's with entire details made along with what codes changes have been done
-10. git show <commit_ID> -> Will display the entire details about perticular commit ID along with codes changes done
-11. git log -> This will display the all commit ID's and commit message and author
-12. git log --oneline -> This will display the online of all commits
-13. git log <commit_ID> -> log message for perticular commit
-14. git log --oneline <commit_ID> -> One liner commit message for perticular commit.
-15. git config --global user.name <user_name>
-16. git config --global user.email <usermailid>
-17. git remote -v -> To check which remote is present
-18. git remote add origin <URL of git hub branch>   
-19. git push --set-upstream origin main -> To push the current branch and set the remote as upstream
-20. git push -> to push the code from local to remote
+#  Create a file with some data and save the file.
+2.  git status -> This will show show files are there for tracking
+3.  git add . ->This will move alll the files from working area to staging area, which means files will be tracked by git
+4.  git add file_name -> This will move perticular file for tracking
+5.  git rm --cached <file_name> -> This will unstate the file, means will love back from stating area to working area.
+6.  git restore <file_name>" -> This is to discard changes in working directory
+7.  git commit -m "commit message"
+8.  git show -> Will display all the commit's with entire details made along with what codes changes have been done
+9.  git show <commit_ID> -> Will display the entire details about perticular commit ID along with codes changes done
+10. git log -> This will display the all commit ID's and commit message and author
+11. git log --oneline -> This will display the online of all commits
+12. git log <commit_ID> -> log message for perticular commit
+13. git log --oneline <commit_ID> -> One liner commit message for perticular commit.
+14. git config --global user.name <user_name>
+15. git config --global user.email <usermailid>
+16. git remote -v -> To check which remote is present
+17. git remote add origin <URL of git hub branch>   
+18. git push --set-upstream origin main -> To push the current branch and set the remote as upstream
+19. git push -> to push the code from local to remote
 # git push/clone is of two ways
 # 1. http: Its a password authentication, we need to push/clone by providing PAT(personal access token)
 # 2. ssh: Password less access, we need to generate the key using command "ssh-keygen" and copy the public key to git hub at location security -> SSH & GPG keys -> add new ssh key and change the remote add origin URL
-21. git remote set-url origin <ssh url>
-22. git branch -> to know the list of branches
-23. git branch <branch_name> -> to create new branch
-24. git checkout <branch_name> -> To switch to other branch from one branch to another branch.
-25. git checkout -b <branch_name> -> It will create a branch and checkout
+20. git remote set-url origin <ssh url>
+21. git branch -> to know the list of branches
+22. git branch <branch_name> -> to create new branch
+23. git checkout <branch_name> -> To switch to other branch from one branch to another branch.
+24. git checkout -b <branch_name> -> It will create a branch and checkout
 # After new branch is created and switched to new branch, all the files present in main branch will be seen in feature branch also, now we can edit existing files ot new files in the feature branch and then checkout to main branch and from main branch we can merge feature branch and push the code to remote.
-26. git merge feature -> From Main branch, we need to merge the feature branch to main branch
+25. git merge feature -> From Main branch, we need to merge the feature branch to main branch
 # We should not directly merge the code from feature branch to master/main branch in local. We need to push the code by raising PR to main branch in remote. Main brach is protected for not directly merging the code with out PR and approvals. reposetting -> branch -> create protection rule -> Branch name -> require a PR before merging 
-27. 
 
