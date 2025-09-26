@@ -36,6 +36,6 @@
 # 1. create a merge commit
 # 2. squash and merge
 # 3. rebase and merge
+# Once collaborator is added, we can add their name in reviewer list in PR, once PR is approved by reviewer, then we can merge the feature branch to main branch
 26. git pull -> pull the latest code from remote to local
 # We can also create branches, files and commit from UI(git hub), Go to Repo and create repo, select repo, from the dropdown of branches type the required branch name and create, we can add file by click on add dropdown, add the content to file and give file name and commit it.
-
