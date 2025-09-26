@@ -23,4 +23,7 @@
 # 1. http: Its a password authentication, we need to push/clone by providing PAT(personal access token)
 # 2. ssh: Password less access, we need to generate the key using command "ssh-keygen" and copy the public key to git hub at location security -> SSH & GPG keys -> add new ssh key and change the remote add origin URL
 21. git remote set-url origin <ssh url>
+22. git branch -> to know the list of branches
+23. git branch <branch_name> -> to create new branch
+24. git checkout <branch_name> -> To switch to other branch from one branch to another branch. 
 
