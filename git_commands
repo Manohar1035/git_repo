@@ -13,5 +13,8 @@
 12. git log --oneline -> This will display the online of all commits
 13. git log <commit_ID> -> log message for perticular commit
 14. git log --oneline <commit_ID> -> One liner commit message for perticular commit.
-15.  
+15. git config --global user.name <user_name>
+16. git config --global user.email <usermailid>
+17. git remote -v -> To check which remote is present
+18. git remote add origin <URL of git hub branch>   
 
