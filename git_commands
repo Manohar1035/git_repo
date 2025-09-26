@@ -1,0 +1,9 @@
+# 1st we need to create working folder and initilize git to work on git
+1. git init
+2. Create a file with some data and save the file.
+3. git status -> This will show show files are there for tracking
+4. git add . ->This will move alll the files from working area to staging area, which means files will be tracked by git
+5. git add file_name -> This will move perticular file for tracking
+6. git rm --cached <file_name> -> This will unstate the file, means will love back from stating area to working area.
+7. git restore <file_name>" -> This is to discard changes in working directory
+8. git commit -m "commit message"
